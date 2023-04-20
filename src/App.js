@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Footer from './PortpolioContainer/Home/Footer/Footer';
+import Home from './PortpolioContainer/Home/Home';
+import Profile from './PortpolioContainer/Home/Profile/Profile';
+import '../src/PortpolioContainer/Home/Home.css'
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <BrowserRouter>
+        <Home/>
+  </BrowserRouter>,
+  
     </div>
   );
 }

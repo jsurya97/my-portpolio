@@ -1,0 +1,19 @@
+.mainfooter-container {
+    padding-top: 103px;
+    background-color: #fff;
+    text-align: center;
+    /* width: 50%; */
+}
+
+.sub-text{
+    width: 51%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .mainfooter-container {
+        padding-top: 18px;
+    }
+
+}

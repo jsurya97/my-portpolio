@@ -1,0 +1,155 @@
+
+
+.about-container {
+    /* z-index: 11111; */
+    /* margin-top: 84px; */
+    background: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+.about-tab {
+    color: black;
+}
+
+.about-tab h1 {
+    color: black;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.about-tab h5 {
+    font-size: 12px;
+    margin-bottom: 14px;
+}
+
+.bar {
+    position: relative;
+    margin: 0 auto;
+    width: 143px;
+}
+
+span.line-bar {
+    border: 2px solid black;
+    height: 0px;
+    width: 133px;
+    display: block;
+    background: black;
+    position: absolute;
+    // left: 318px;
+    /* margin-bottom: 30px; */
+    border-radius: 84px;
+}
+span.orange-bar {
+    border: 1.5px solid #ff5823;
+    height: 8px;
+    width: 22px;
+    display: block;
+    background: #ff5823;
+    border-radius: 53px;
+    position: absolute;
+    top: -3.5px;
+    left: 54px;
+}
+
+
+.about-details-container {
+    display: flex;
+    /* flex-basis: 50%; */
+    margin-top: 52px;
+    justify-content: space-between;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: blue;
+    animation: mymove 3s infinite;
+  
+}
+
+@keyframes mymove {
+    90% {box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 20px 4px;}
+    
+  }
+
+.about-image {
+    flex-basis: 50%;
+}
+
+.about-sub-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.about-desc {
+    flex-basis: 50%;
+    margin: 20px;
+    text-align: initial;
+}
+
+.higlights {
+    margin-top: 50px;
+}
+
+h1.higlights-header {
+    color: #000;
+    font-size: 24px;
+    text-align: justify;
+
+}
+
+.higlights-points {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.higlights-decs {
+    margin-bottom: 4px;
+}
+
+span.higlight-text {
+    margin-left: 8px;
+}
+
+
+
+}
+
+.about-container {
+    padding-bottom: 44px;
+
+@media only screen and (max-width: 600px) {
+
+
+    // span.line-bar {
+    //     left: 22px;
+        
+    //     top: -3.5px;
+    // }
+    
+         .about-sub-container {
+        margin: 0 auto;
+        width: 86%;
+    }
+    
+        .about-details-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    
+            }
+    
+  
+        }
+
+}
